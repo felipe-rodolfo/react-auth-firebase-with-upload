@@ -1,0 +1,27 @@
+.uploadSection {
+    position: relative;
+}
+
+.uploadSection h2 {
+    text-align: center;
+    color: #FFF;
+    font-size: 2.1rem;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.logout {
+    all: unset;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    padding: 2px 5px;
+    background-color: var(--secondary-color);
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 5px;
+}

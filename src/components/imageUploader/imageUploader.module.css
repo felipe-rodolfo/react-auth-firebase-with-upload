@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.label {
+    display: block;
+    color: #FFF;
+    margin-bottom: 5px;
+}
+
+.input {
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+.btn {
+    all: unset;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    color: #252525;
+    background-color: var(--contrast-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.btn:hover {
+    color: #FFF;
+    background-color: var(--secondary-color);
+}

@@ -1,0 +1,70 @@
+
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 320px;
+}
+
+.mainForm legend {
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+    color: #FFF;
+}
+
+.nainFormFieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+}
+
+.nainFormFieldset label {
+    margin-bottom: 5px;
+    align-self: flex-start;
+    color: #FFF;
+}
+
+.nainFormFieldset input {
+    all: unset;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.nainFormFieldset input::placeholder {
+    color: #FFF;
+}
+
+.nainFormFieldset button {
+    all: unset;
+    align-self: flex-start;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    transition: all ease 0.3s;
+}
+
+.nainFormFieldset button:hover {
+    background-color: var(--secondary-color-hover);
+}
+
+.linkMethod {
+    color: #FFF;
+    transition: all ease 0.3s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.linkMethod:hover {
+    color: #DDD;
+}
